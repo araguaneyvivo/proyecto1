@@ -1,0 +1,125 @@
+
+/*
+que todos los <p> tengan color de texto #0f0f0f
+que todos los titulos esten centrados
+que las listas y parrafos tengan un interlineado de 1,2
+que los titulos y subtitulos tengan las letras en color azul
+demostrar la navegacion por anclas
+que el scroll hasta la seccion sea suave
+que el display flex sea en columna y que su eje principal sea vertical
+que el eje secundario este centrado
+que el margen tenga un width de 50px
+que la seccion secundaria hablemos tenga un fondo de color
+
+*/
+
+body
+{
+    background-color: rgb (#fbfbfb);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+ display: flex;
+ /*el eje principal es vertical*/
+  flex-direction: column; 
+  /* eje pricipal*/
+  justify-content: centered;
+  /* eje secundario*/
+width: 400px;
+height: 400px
+
+}
+
+main{
+max-width: auto;
+margin: auto;
+}
+
+p{ 
+   color:#0f0f0f ;
+   font-size: 18px
+  
+}
+
+.centered{
+    text-align: center;
+}
+
+ul{
+    line-height: 1,2;
+    width: 20px;
+    
+}
+
+h1{
+    color: none;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+h2{
+    background-color: none;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 28px;
+    text-transform: uppercase;
+color: none;
+}
+
+img{
+    width: 400px;
+ border-radius: 50%;
+}
+
+header{
+    height: 90px;
+    border: none;
+    color: #fbfbfb;
+}
+
+.secundaria{
+    background-color: rgba(175,89,158,0.3)
+    color rgba(175,89,158,0.3)
+}
+
+section{
+min-height: 100vh;
+border: none;
+padding: 20px;
+}
+
+.imgfacebook
+{
+ width: 40px;
+}
+strong{
+color: deeppink;
+}
+.footer{
+  height: 90px; 
+  background-color: #af599e; 
+  content: centered;
+  min-height: 100vh;
+
+}
+.color{
+  background-color: rgb #af599e;
+ color: #fbfbfb;
+ width: 20px 20px;
+ 
+ }
+ 
+ .border {
+color: #0f0f0f;
+background-color: rgba(175,89,158,0.3);
+text-transform: uppercase;
+align-content: center;
+size: 20px;
+}   
